@@ -3,7 +3,7 @@ import { EAFCApiService } from '../src/api'
 const apiService = new EAFCApiService()
 const leagueMatchesStats = async () =>
   apiService.matchesStats({
-    clubIds: '2605511',
+    clubIds: '8960672',
     platform: 'common-gen5',
     matchType: 'playoffMatch',
   })

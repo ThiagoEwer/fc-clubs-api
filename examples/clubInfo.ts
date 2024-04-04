@@ -3,10 +3,10 @@ import { EAFCApiService } from '../src/api'
 const apiService = new EAFCApiService()
 const search = async () =>
   apiService.clubInfo({
-    clubIds: '2605511',
+    clubIds: '8960672',
     platform: 'common-gen5',
   })
 
 search()
-  .then(c => console.log(c['2605511']))
+  .then(c => console.log(c['8960672']))
   .catch(console.error)
