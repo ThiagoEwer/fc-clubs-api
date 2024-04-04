@@ -3,7 +3,7 @@ import { EAFCApiService } from '../src/api'
 const apiService = new EAFCApiService()
 const search = async () =>
   apiService.searchClub({
-    clubName: 'PILOKA FC',
+    clubName: 'Saint Paul Cart',
     platform: 'common-gen5',
   })
 

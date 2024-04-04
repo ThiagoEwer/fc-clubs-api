@@ -3,7 +3,7 @@ import { EAFCApiService } from '../src/api'
 const apiService = new EAFCApiService()
 const memberCareerStats = async () =>
   apiService.memberCareerStats({
-    clubId: '2605511',
+    clubId: '8960672',
     platform: 'common-gen5',
   })
 
